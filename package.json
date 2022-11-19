@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "distribute": "ng build --base-href /HelloWord-local/ --deploy-url /HelloWord-local/ --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
